@@ -1,7 +1,7 @@
 'use strict';
 
 const logger = (request, reponse, next) => {
-    console.log(`request method at ${request.method} at ${request.url}`);
+    console.log(`request method at ${request.method} :: ${request.url}`);
     next();
 }
 
